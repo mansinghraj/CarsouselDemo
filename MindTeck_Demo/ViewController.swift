@@ -35,7 +35,6 @@ class ViewController: UIViewController ,UISearchBarDelegate{
             searchActive = false
         }
     }
-
     func searchBarTextDidEndEditing(_ searchBar: UISearchBar) {
         searchActive = false
     }
